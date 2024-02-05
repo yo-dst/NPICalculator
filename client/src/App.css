@@ -1,0 +1,61 @@
+.app {
+  background-color: #26364C;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.title {
+  font-size: 50px;
+  color: #FAFAF0;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.calculator-container {
+  background-color: #14293B;
+  display: flex;
+  padding: 20px;
+  padding-right: 15px;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  margin: 0 5vw;
+}
+.calculator-input {
+  background-color: #FBFBFA;
+  text-align: right;
+  font-size: 30px;
+  margin-right: 5px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.calculator-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.calculator-button {
+  font-weight: bold;
+  font-size: 20px;
+  flex: 0 0 calc(25% - 5px); /* Adjust the width as needed */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  background-color: #FAFAF0;
+}
+.download-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #FAFAF0;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+

@@ -1,0 +1,17 @@
+Create a NPI calculator
+
+STACK
+front: React.js
+back: FastAPI
+db: MongoDB https://hub.docker.com/_/mongo
+
+NPI SERVICE
+1. Client input its expression
+2. Send expression to server
+3. Calculate expression
+4. Return result to client
+
+ADDITIONALS CONSTRAINTS
+1. Store every epxressions/results in a database
+2. API must contains a route to retrieve all expressions/results in a '.csv' file
+3. Dockerize everything
